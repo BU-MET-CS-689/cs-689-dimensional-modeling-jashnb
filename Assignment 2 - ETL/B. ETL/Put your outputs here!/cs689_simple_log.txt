@@ -1,0 +1,4 @@
+2017-11-14 20:35:28	jashnb	DateGen.py	Started at 2017-11-14 20:35:28
+2017-11-14 20:35:28	jashnb	DateGen.py	ABout to run gendates (5,25)
+2017-11-14 20:35:46	jashnb	DateGen.py	Started at 2017-11-14 20:35:46
+2017-11-14 20:35:46	jashnb	DateGen.py	ABout to run gendates (5,25)
