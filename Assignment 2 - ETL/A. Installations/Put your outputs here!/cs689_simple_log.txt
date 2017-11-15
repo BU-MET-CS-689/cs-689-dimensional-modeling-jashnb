@@ -3,3 +3,6 @@
 2017-11-02 20:10:22	ophelia	C:\Users\ophelia\Anaconda3\Scripts\ipython-script.py	Started at 2017-11-02 20:10:22
 2017-11-02 21:03:18	ophelia	C:\Users\ophelia\Anaconda3\lib\runpy.py	Started at 2017-11-02 21:03:17
 2017-11-02 21:03:52	ophelia	C:\Users\ophelia\Anaconda3\lib\runpy.py	This is Ophelia Gibson
+2017-11-15 16:45:59	jashnb	hello_cs689.py	Started at 2017-11-15 16:45:59
+2017-11-15 16:47:28	jashnb	hello_cs689.py	Started at 2017-11-15 16:47:27
+2017-11-15 16:49:16	jashnb	C:\ProgramData\Anaconda3\Scripts\ipython-script.py	Started at 2017-11-15 16:49:16
