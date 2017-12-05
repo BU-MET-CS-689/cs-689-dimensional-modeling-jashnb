@@ -19,7 +19,7 @@ else:
 	outputDir = "Put your outputs here!"
 
 def log (message):
-	simpleLog = open (outputDir + "/cs689_simple_log.txt", "a+")
+	simpleLog = open (outputDir + "/test_log.txt", "a+")
 	simpleLog.write (time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + 
 		"\t" + os.getlogin() +
 		"\t" + topFile + 

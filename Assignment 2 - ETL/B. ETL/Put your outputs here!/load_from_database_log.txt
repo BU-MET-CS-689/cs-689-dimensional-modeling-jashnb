@@ -1,0 +1,8 @@
+2017-12-05 13:04:44	jashnb	C:/metcs689/Assignment 2 - ETL/B. ETL/LoadFromDatabase.py	Started at 2017-12-05 13:04:44
+2017-12-05 13:04:46	jashnb	C:/metcs689/Assignment 2 - ETL/B. ETL/LoadFromDatabase.py	no, the full name Guam is not a state
+2017-12-05 13:04:46	jashnb	C:/metcs689/Assignment 2 - ETL/B. ETL/LoadFromDatabase.py	yes, the full name Delaware is a state
+2017-12-05 13:04:46	jashnb	C:/metcs689/Assignment 2 - ETL/B. ETL/LoadFromDatabase.py	yes, the abbreviated NY is a state
+2017-12-05 13:04:46	jashnb	C:/metcs689/Assignment 2 - ETL/B. ETL/LoadFromDatabase.py	no, the abbreviated AS is not a state
+2017-12-05 13:04:46	jashnb	C:/metcs689/Assignment 2 - ETL/B. ETL/LoadFromDatabase.py	Error in Full name Guam1
+2017-12-05 13:04:46	jashnb	C:/metcs689/Assignment 2 - ETL/B. ETL/LoadFromDatabase.py	Error in abbreviation AB
+2017-12-05 13:04:46	jashnb	C:/metcs689/Assignment 2 - ETL/B. ETL/LoadFromDatabase.py	The number of entries in the household query are 444
