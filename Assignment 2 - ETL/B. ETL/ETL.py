@@ -16,12 +16,12 @@ CSVContents = pd.read_csv(file)
 newDataFrame = pd.DataFrame(CSVContents, columns = ['StateCodes', 'State', 'Region', 'Division'])
 
 #Drop the constraint
-dropFactConstraint = "ALTER TABLE us_national_statistics.fact_person_economic_info DROP CONSTRAINT IF EXISTS location_key_const"
-dbCur.execute(dropFactConstraint)
-connDB.commit()
+# dropFactConstraint = "ALTER TABLE us_national_statistics.fact_person_economic_info DROP CONSTRAINT IF EXISTS location_key_const"
+# dbCur.execute(dropFactConstraint)
+# connDB.commit()
 
 #Dropping the location dimension table if exists
-dropTable = "DROP TABLE IF EXISTS us_national_statistics.Location_Dim"
+dropTable = "DROP TABLE IF EXISTS us_national_statistics.Location_Dim CASCADE"
 dbCur.execute(dropTable)
 connDB.commit()
 
@@ -49,7 +49,7 @@ personInfoDataFrame = pd.read_sql(selectPersonQuery, connDB)
 # print(personInfoDataFrame)
 
 #Drop fact table if exists
-dropTable = "DROP TABLE IF EXISTS us_national_statistics.fact_person_economic_info"
+dropTable = "DROP TABLE IF EXISTS us_national_statistics.fact_person_economic_info CASCADE"
 dbCur.execute(dropTable)
 connDB.commit()
 
