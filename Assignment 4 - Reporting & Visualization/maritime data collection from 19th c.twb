@@ -1,0 +1,3208 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10000.17.1031.1522                               -->
+<workbook source-build='10.0.14 (10000.17.1031.1522)' source-platform='mac' version='10.0' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Geodata' inline='true' name='federated.0imwylu1281bee16kr4oo15y6e19' version='10.0'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Geodata' name='textscan.1t5q8z70d7kfss10hcuz30r5scdw'>
+            <connection class='textscan' directory='/Users/awolfe/Google Drive/Share with Sahar/CS Course Revision Tracking/CS 689 - start 2017-04 - Wolfe, Andrew/Datasets for class/climate-data-from-ocean-ships' filename='Geodata.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1t5q8z70d7kfss10hcuz30r5scdw' name='CLIWOC15.csv' table='[CLIWOC15#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='RecID' ordinal='0' />
+            <column datatype='string' name='InstAbbr' ordinal='1' />
+            <column datatype='string' name='InstName' ordinal='2' />
+            <column datatype='string' name='InstPlace' ordinal='3' />
+            <column datatype='string' name='InstLand' ordinal='4' />
+            <column datatype='string' name='NumberEntry' ordinal='5' />
+            <column datatype='string' name='NameArchiveSet' ordinal='6' />
+            <column datatype='string' name='ArchivePart' ordinal='7' />
+            <column datatype='string' name='Specification' ordinal='8' />
+            <column datatype='string' name='LogbookIdent' ordinal='9' />
+            <column datatype='string' name='LogbookLanguage' ordinal='10' />
+            <column datatype='string' name='EnteredBy' ordinal='11' />
+            <column datatype='string' name='DASnumber' ordinal='12' />
+            <column datatype='string' name='ImageNumber' ordinal='13' />
+            <column datatype='string' name='VoyageFrom' ordinal='14' />
+            <column datatype='string' name='VoyageTo' ordinal='15' />
+            <column datatype='string' name='ShipName' ordinal='16' />
+            <column datatype='string' name='ShipType' ordinal='17' />
+            <column datatype='string' name='Company' ordinal='18' />
+            <column datatype='string' name='OtherShipInformation' ordinal='19' />
+            <column datatype='string' name='Nationality' ordinal='20' />
+            <column datatype='string' name='Name1' ordinal='21' />
+            <column datatype='string' name='Rank1' ordinal='22' />
+            <column datatype='string' name='Name2' ordinal='23' />
+            <column datatype='string' name='Rank2' ordinal='24' />
+            <column datatype='string' name='Name3' ordinal='25' />
+            <column datatype='string' name='Rank3' ordinal='26' />
+            <column datatype='string' name='ZeroMeridian' ordinal='27' />
+            <column datatype='string' name='StartDay' ordinal='28' />
+            <column datatype='string' name='TimeGen' ordinal='29' />
+            <column datatype='string' name='ObsGen' ordinal='30' />
+            <column datatype='string' name='ReferenceCourse' ordinal='31' />
+            <column datatype='string' name='ReferenceWindDirection' ordinal='32' />
+            <column datatype='string' name='DistUnits' ordinal='33' />
+            <column datatype='string' name='DistToLandmarkUnits' ordinal='34' />
+            <column datatype='string' name='DistTravelledUnits' ordinal='35' />
+            <column datatype='string' name='LongitudeUnits' ordinal='36' />
+            <column datatype='date' name='VoyageIni' ordinal='37' />
+            <column datatype='string' name='UnitsOfMeasurement' ordinal='38' />
+            <column datatype='integer' name='Calendar' ordinal='39' />
+            <column datatype='integer' name='Year' ordinal='40' />
+            <column datatype='integer' name='Month' ordinal='41' />
+            <column datatype='integer' name='Day' ordinal='42' />
+            <column datatype='string' name='DayOfTheWeek' ordinal='43' />
+            <column datatype='string' name='PartDay' ordinal='44' />
+            <column datatype='integer' name='TimeOB' ordinal='45' />
+            <column datatype='string' name='Watch' ordinal='46' />
+            <column datatype='string' name='Glasses' ordinal='47' />
+            <column datatype='integer' name='UTC' ordinal='48' />
+            <column datatype='string' name='CMG' ordinal='49' />
+            <column datatype='string' name='ShipSpeed' ordinal='50' />
+            <column datatype='string' name='Distance' ordinal='51' />
+            <column datatype='string' name='drLatDeg' ordinal='52' />
+            <column datatype='string' name='drLatMin' ordinal='53' />
+            <column datatype='string' name='drLatSec' ordinal='54' />
+            <column datatype='string' name='drLatHem' ordinal='55' />
+            <column datatype='string' name='drLongDeg' ordinal='56' />
+            <column datatype='string' name='drLongMin' ordinal='57' />
+            <column datatype='string' name='drLongSec' ordinal='58' />
+            <column datatype='string' name='drLongHem' ordinal='59' />
+            <column datatype='string' name='LatDeg' ordinal='60' />
+            <column datatype='string' name='LatMin' ordinal='61' />
+            <column datatype='string' name='LatSec' ordinal='62' />
+            <column datatype='string' name='LatHem' ordinal='63' />
+            <column datatype='string' name='LongDeg' ordinal='64' />
+            <column datatype='string' name='LongMin' ordinal='65' />
+            <column datatype='string' name='LongSec' ordinal='66' />
+            <column datatype='string' name='LongHem' ordinal='67' />
+            <column datatype='string' name='Lat3' ordinal='68' />
+            <column datatype='string' name='Lon3' ordinal='69' />
+            <column datatype='integer' name='LatInd' ordinal='70' />
+            <column datatype='integer' name='LonInd' ordinal='71' />
+            <column datatype='integer' name='PosCoastal' ordinal='72' />
+            <column datatype='string' name='EncName' ordinal='73' />
+            <column datatype='string' name='EncNat' ordinal='74' />
+            <column datatype='string' name='EncRem' ordinal='75' />
+            <column datatype='integer' name='Anchored' ordinal='76' />
+            <column datatype='string' name='AnchorPlace' ordinal='77' />
+            <column datatype='string' name='LMname1' ordinal='78' />
+            <column datatype='string' name='LMdirection1' ordinal='79' />
+            <column datatype='string' name='LMdistance1' ordinal='80' />
+            <column datatype='string' name='LMname2' ordinal='81' />
+            <column datatype='string' name='LMdirection2' ordinal='82' />
+            <column datatype='string' name='LMdistance2' ordinal='83' />
+            <column datatype='string' name='LMname3' ordinal='84' />
+            <column datatype='string' name='LMdirection3' ordinal='85' />
+            <column datatype='string' name='LMdistance3' ordinal='86' />
+            <column datatype='string' name='EstError' ordinal='87' />
+            <column datatype='string' name='ApplError' ordinal='88' />
+            <column datatype='string' name='WindDirection' ordinal='89' />
+            <column datatype='string' name='AllWindDirections' ordinal='90' />
+            <column datatype='string' name='WindForce' ordinal='91' />
+            <column datatype='string' name='WindForceScale' ordinal='92' />
+            <column datatype='string' name='AllWindForces' ordinal='93' />
+            <column datatype='string' name='WindScale' ordinal='94' />
+            <column datatype='string' name='Weather' ordinal='95' />
+            <column datatype='string' name='ShapeClouds' ordinal='96' />
+            <column datatype='string' name='DirClouds' ordinal='97' />
+            <column datatype='string' name='Clearness' ordinal='98' />
+            <column datatype='string' name='PrecipitationDescriptor' ordinal='99' />
+            <column datatype='string' name='CloudFrac' ordinal='100' />
+            <column datatype='integer' name='Gusts' ordinal='101' />
+            <column datatype='integer' name='Rain' ordinal='102' />
+            <column datatype='integer' name='Fog' ordinal='103' />
+            <column datatype='integer' name='Snow' ordinal='104' />
+            <column datatype='integer' name='Thunder' ordinal='105' />
+            <column datatype='integer' name='Hail' ordinal='106' />
+            <column datatype='integer' name='SeaIce' ordinal='107' />
+            <column datatype='integer' name='Duplicate' ordinal='108' />
+            <column datatype='string' name='Release' ordinal='109' />
+            <column datatype='string' name='SSTReading' ordinal='110' />
+            <column datatype='string' name='SSTReadingUnits' ordinal='111' />
+            <column datatype='string' name='StateSea' ordinal='112' />
+            <column datatype='string' name='CurrentDir' ordinal='113' />
+            <column datatype='string' name='CurrentSpeed' ordinal='114' />
+            <column datatype='string' name='TairReading' ordinal='115' />
+            <column datatype='string' name='AirThermReadingUnits' ordinal='116' />
+            <column datatype='string' name='ProbTair' ordinal='117' />
+            <column datatype='string' name='BaroReading' ordinal='118' />
+            <column datatype='string' name='AirPressureReadingUnits' ordinal='119' />
+            <column datatype='string' name='BarometerType' ordinal='120' />
+            <column datatype='string' name='BarTempReading' ordinal='121' />
+            <column datatype='string' name='BarTempReadingUnits' ordinal='122' />
+            <column datatype='string' name='HumReading' ordinal='123' />
+            <column datatype='string' name='HumidityUnits' ordinal='124' />
+            <column datatype='string' name='HumidityMethod' ordinal='125' />
+            <column datatype='string' name='PumpWater' ordinal='126' />
+            <column datatype='string' name='WaterAtThePumpUnits' ordinal='127' />
+            <column datatype='integer' name='LifeOnBoard' ordinal='128' />
+            <column datatype='string' name='LifeOnBoardMemo' ordinal='129' />
+            <column datatype='integer' name='Cargo' ordinal='130' />
+            <column datatype='string' name='CargoMemo' ordinal='131' />
+            <column datatype='integer' name='ShipAndRig' ordinal='132' />
+            <column datatype='string' name='ShipAndRigMemo' ordinal='133' />
+            <column datatype='integer' name='Biology' ordinal='134' />
+            <column datatype='string' name='BiologyMemo' ordinal='135' />
+            <column datatype='integer' name='WarsAndFights' ordinal='136' />
+            <column datatype='string' name='WarsAndFightsMemo' ordinal='137' />
+            <column datatype='integer' name='Illustrations' ordinal='138' />
+            <column datatype='integer' name='TrivialCorrection' ordinal='139' />
+            <column datatype='string' name='OtherRem' ordinal='140' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>RecID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RecID]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>RecID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>InstAbbr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[InstAbbr]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>InstAbbr</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>InstName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[InstName]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>InstName</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>InstPlace</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[InstPlace]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>InstPlace</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>InstLand</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[InstLand]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>InstLand</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumberEntry</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NumberEntry]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>NumberEntry</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NameArchiveSet</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NameArchiveSet]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>NameArchiveSet</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ArchivePart</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ArchivePart]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>ArchivePart</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Specification</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Specification]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Specification</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LogbookIdent</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LogbookIdent]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LogbookIdent</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LogbookLanguage</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LogbookLanguage]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LogbookLanguage</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EnteredBy</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[EnteredBy]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>EnteredBy</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DASnumber</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DASnumber]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>DASnumber</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ImageNumber</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ImageNumber]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>ImageNumber</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VoyageFrom</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[VoyageFrom]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>VoyageFrom</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VoyageTo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[VoyageTo]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>VoyageTo</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ShipName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ShipName]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>ShipName</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ShipType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ShipType]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>ShipType</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Company]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Company</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OtherShipInformation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OtherShipInformation]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>OtherShipInformation</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nationality</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Nationality]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Nationality</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name1]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Name1</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rank1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Rank1]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Rank1</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name2]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Name2</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rank2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Rank2]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Rank2</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name3]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Name3</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rank3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Rank3]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Rank3</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZeroMeridian</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ZeroMeridian]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>ZeroMeridian</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StartDay</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[StartDay]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>StartDay</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TimeGen</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TimeGen]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>TimeGen</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ObsGen</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ObsGen]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>ObsGen</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ReferenceCourse</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ReferenceCourse]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>ReferenceCourse</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ReferenceWindDirection</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ReferenceWindDirection]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>ReferenceWindDirection</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DistUnits</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DistUnits]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>DistUnits</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DistToLandmarkUnits</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DistToLandmarkUnits]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>DistToLandmarkUnits</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DistTravelledUnits</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DistTravelledUnits]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>DistTravelledUnits</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LongitudeUnits</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LongitudeUnits]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LongitudeUnits</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VoyageIni</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[VoyageIni]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>VoyageIni</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;date&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UnitsOfMeasurement</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[UnitsOfMeasurement]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>UnitsOfMeasurement</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calendar</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Calendar]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Calendar</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Day</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Day]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Day</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DayOfTheWeek</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DayOfTheWeek]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>DayOfTheWeek</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PartDay</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PartDay]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>PartDay</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TimeOB</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TimeOB]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>TimeOB</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Watch</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Watch]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Watch</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Glasses</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Glasses]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Glasses</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UTC</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[UTC]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>UTC</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CMG</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CMG]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>CMG</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ShipSpeed</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ShipSpeed]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>ShipSpeed</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Distance</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Distance]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Distance</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>drLatDeg</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[drLatDeg]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>drLatDeg</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>drLatMin</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[drLatMin]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>drLatMin</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>drLatSec</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[drLatSec]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>drLatSec</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>drLatHem</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[drLatHem]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>drLatHem</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>drLongDeg</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[drLongDeg]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>drLongDeg</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>drLongMin</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[drLongMin]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>drLongMin</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>drLongSec</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[drLongSec]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>drLongSec</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>drLongHem</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[drLongHem]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>drLongHem</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LatDeg</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LatDeg]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LatDeg</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LatMin</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LatMin]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LatMin</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LatSec</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LatSec]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LatSec</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LatHem</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LatHem]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LatHem</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LongDeg</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LongDeg]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LongDeg</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LongMin</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LongMin]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LongMin</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LongSec</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LongSec]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LongSec</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LongHem</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LongHem]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LongHem</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lat3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Lat3]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Lat3</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lon3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Lon3]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Lon3</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LatInd</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LatInd]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LatInd</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LonInd</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LonInd]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LonInd</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PosCoastal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PosCoastal]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>PosCoastal</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EncName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[EncName]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>EncName</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EncNat</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[EncNat]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>EncNat</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EncRem</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[EncRem]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>EncRem</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Anchored</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Anchored]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Anchored</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AnchorPlace</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AnchorPlace]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>AnchorPlace</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LMname1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LMname1]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LMname1</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LMdirection1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LMdirection1]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LMdirection1</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LMdistance1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LMdistance1]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LMdistance1</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LMname2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LMname2]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LMname2</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LMdirection2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LMdirection2]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LMdirection2</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LMdistance2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LMdistance2]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LMdistance2</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LMname3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LMname3]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LMname3</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LMdirection3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LMdirection3]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LMdirection3</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LMdistance3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LMdistance3]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LMdistance3</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EstError</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[EstError]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>EstError</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ApplError</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ApplError]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>ApplError</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WindDirection</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WindDirection]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>WindDirection</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AllWindDirections</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AllWindDirections]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>AllWindDirections</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WindForce</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WindForce]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>WindForce</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WindForceScale</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WindForceScale]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>WindForceScale</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AllWindForces</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AllWindForces]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>AllWindForces</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WindScale</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WindScale]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>WindScale</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weather</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Weather]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Weather</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ShapeClouds</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ShapeClouds]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>ShapeClouds</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DirClouds</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DirClouds]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>DirClouds</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Clearness</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Clearness]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Clearness</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PrecipitationDescriptor</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PrecipitationDescriptor]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>PrecipitationDescriptor</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CloudFrac</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CloudFrac]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>CloudFrac</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gusts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gusts]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Gusts</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rain</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rain]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Rain</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fog</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fog]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Fog</remote-alias>
+            <ordinal>103</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Snow</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Snow]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Snow</remote-alias>
+            <ordinal>104</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Thunder</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Thunder]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Thunder</remote-alias>
+            <ordinal>105</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hail</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hail]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Hail</remote-alias>
+            <ordinal>106</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SeaIce</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SeaIce]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>SeaIce</remote-alias>
+            <ordinal>107</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Duplicate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Duplicate]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Duplicate</remote-alias>
+            <ordinal>108</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Release</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Release]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Release</remote-alias>
+            <ordinal>109</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SSTReading</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SSTReading]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>SSTReading</remote-alias>
+            <ordinal>110</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SSTReadingUnits</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SSTReadingUnits]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>SSTReadingUnits</remote-alias>
+            <ordinal>111</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StateSea</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[StateSea]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>StateSea</remote-alias>
+            <ordinal>112</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CurrentDir</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CurrentDir]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>CurrentDir</remote-alias>
+            <ordinal>113</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CurrentSpeed</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CurrentSpeed]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>CurrentSpeed</remote-alias>
+            <ordinal>114</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TairReading</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TairReading]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>TairReading</remote-alias>
+            <ordinal>115</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AirThermReadingUnits</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AirThermReadingUnits]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>AirThermReadingUnits</remote-alias>
+            <ordinal>116</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ProbTair</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ProbTair]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>ProbTair</remote-alias>
+            <ordinal>117</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BaroReading</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BaroReading]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>BaroReading</remote-alias>
+            <ordinal>118</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AirPressureReadingUnits</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AirPressureReadingUnits]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>AirPressureReadingUnits</remote-alias>
+            <ordinal>119</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BarometerType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BarometerType]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>BarometerType</remote-alias>
+            <ordinal>120</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BarTempReading</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BarTempReading]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>BarTempReading</remote-alias>
+            <ordinal>121</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BarTempReadingUnits</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BarTempReadingUnits]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>BarTempReadingUnits</remote-alias>
+            <ordinal>122</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HumReading</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[HumReading]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>HumReading</remote-alias>
+            <ordinal>123</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HumidityUnits</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[HumidityUnits]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>HumidityUnits</remote-alias>
+            <ordinal>124</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HumidityMethod</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[HumidityMethod]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>HumidityMethod</remote-alias>
+            <ordinal>125</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PumpWater</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PumpWater]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>PumpWater</remote-alias>
+            <ordinal>126</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WaterAtThePumpUnits</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WaterAtThePumpUnits]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>WaterAtThePumpUnits</remote-alias>
+            <ordinal>127</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LifeOnBoard</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LifeOnBoard]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LifeOnBoard</remote-alias>
+            <ordinal>128</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LifeOnBoardMemo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LifeOnBoardMemo]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>LifeOnBoardMemo</remote-alias>
+            <ordinal>129</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cargo</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cargo]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Cargo</remote-alias>
+            <ordinal>130</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CargoMemo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CargoMemo]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>CargoMemo</remote-alias>
+            <ordinal>131</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ShipAndRig</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ShipAndRig]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>ShipAndRig</remote-alias>
+            <ordinal>132</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ShipAndRigMemo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ShipAndRigMemo]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>ShipAndRigMemo</remote-alias>
+            <ordinal>133</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Biology</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Biology]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Biology</remote-alias>
+            <ordinal>134</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BiologyMemo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BiologyMemo]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>BiologyMemo</remote-alias>
+            <ordinal>135</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WarsAndFights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WarsAndFights]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>WarsAndFights</remote-alias>
+            <ordinal>136</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WarsAndFightsMemo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WarsAndFightsMemo]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>WarsAndFightsMemo</remote-alias>
+            <ordinal>137</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Illustrations</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Illustrations]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>Illustrations</remote-alias>
+            <ordinal>138</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TrivialCorrection</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TrivialCorrection]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>TrivialCorrection</remote-alias>
+            <ordinal>139</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OtherRem</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OtherRem]</local-name>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias>OtherRem</remote-alias>
+            <ordinal>140</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[CLIWOC15.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Air Pressure Reading Units' datatype='string' name='[AirPressureReadingUnits]' role='dimension' type='nominal' />
+      <column caption='Air Therm Reading Units' datatype='string' name='[AirThermReadingUnits]' role='dimension' type='nominal' />
+      <column caption='All Wind Directions' datatype='string' name='[AllWindDirections]' role='dimension' type='nominal' />
+      <column caption='All Wind Forces' datatype='string' name='[AllWindForces]' role='dimension' type='nominal' />
+      <column caption='Anchor Place' datatype='string' name='[AnchorPlace]' role='dimension' type='nominal' />
+      <column caption='Appl Error' datatype='string' name='[ApplError]' role='dimension' type='nominal' />
+      <column caption='Archive Part' datatype='string' name='[ArchivePart]' role='dimension' type='nominal' />
+      <column caption='Bar Temp Reading Units' datatype='string' name='[BarTempReadingUnits]' role='dimension' type='nominal' />
+      <column caption='Bar Temp Reading' datatype='string' name='[BarTempReading]' role='dimension' type='nominal' />
+      <column caption='Baro Reading' datatype='string' name='[BaroReading]' role='dimension' type='nominal' />
+      <column caption='Barometer Type' datatype='string' name='[BarometerType]' role='dimension' type='nominal' />
+      <column caption='Biology Memo' datatype='string' name='[BiologyMemo]' role='dimension' type='nominal' />
+      <column caption='Cargo Memo' datatype='string' name='[CargoMemo]' role='dimension' type='nominal' />
+      <column caption='Cloud Frac' datatype='string' name='[CloudFrac]' role='dimension' type='nominal' />
+      <column caption='Current Dir' datatype='string' name='[CurrentDir]' role='dimension' type='nominal' />
+      <column caption='Current Speed' datatype='string' name='[CurrentSpeed]' role='dimension' type='nominal' />
+      <column caption='DA Snumber' datatype='string' name='[DASnumber]' role='dimension' type='nominal' />
+      <column caption='Day Of The Week' datatype='string' name='[DayOfTheWeek]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Day]' role='dimension' type='quantitative' />
+      <column caption='Dir Clouds' datatype='string' name='[DirClouds]' role='dimension' type='nominal' />
+      <column caption='Dist To Landmark Units' datatype='string' name='[DistToLandmarkUnits]' role='dimension' type='nominal' />
+      <column caption='Dist Travelled Units' datatype='string' name='[DistTravelledUnits]' role='dimension' type='nominal' />
+      <column caption='Dist Units' datatype='string' name='[DistUnits]' role='dimension' type='nominal' />
+      <column caption='Enc Name' datatype='string' name='[EncName]' role='dimension' type='nominal' />
+      <column caption='Enc Nat' datatype='string' name='[EncNat]' role='dimension' type='nominal' />
+      <column caption='Enc Rem' datatype='string' name='[EncRem]' role='dimension' type='nominal' />
+      <column caption='Entered By' datatype='string' name='[EnteredBy]' role='dimension' type='nominal' />
+      <column caption='Est Error' datatype='string' name='[EstError]' role='dimension' type='nominal' />
+      <column caption='Hum Reading' datatype='string' name='[HumReading]' role='dimension' type='nominal' />
+      <column caption='Humidity Method' datatype='string' name='[HumidityMethod]' role='dimension' type='nominal' />
+      <column caption='Humidity Units' datatype='string' name='[HumidityUnits]' role='dimension' type='nominal' />
+      <column caption='Image Number' datatype='string' name='[ImageNumber]' role='dimension' type='nominal' />
+      <column caption='Inst Abbr' datatype='string' name='[InstAbbr]' role='dimension' type='nominal' />
+      <column caption='Inst Land' datatype='string' name='[InstLand]' role='dimension' type='nominal' />
+      <column caption='Inst Name' datatype='string' name='[InstName]' role='dimension' type='nominal' />
+      <column caption='Inst Place' datatype='string' name='[InstPlace]' role='dimension' type='nominal' />
+      <column caption='Lat Deg' datatype='string' name='[LatDeg]' role='dimension' type='nominal' />
+      <column caption='Lat Hem' datatype='string' name='[LatHem]' role='dimension' type='nominal' />
+      <column caption='Lat Ind' datatype='integer' name='[LatInd]' role='measure' type='quantitative' />
+      <column caption='Lat Min' datatype='string' name='[LatMin]' role='dimension' type='nominal' />
+      <column caption='Lat Sec' datatype='string' name='[LatSec]' role='dimension' type='nominal' />
+      <column caption='Life On Board Memo' datatype='string' name='[LifeOnBoardMemo]' role='dimension' type='nominal' />
+      <column caption='Life On Board' datatype='integer' name='[LifeOnBoard]' role='measure' type='quantitative' />
+      <column caption='Logbook Ident' datatype='string' name='[LogbookIdent]' role='dimension' type='nominal' />
+      <column caption='Logbook Language' datatype='string' name='[LogbookLanguage]' role='dimension' type='nominal' />
+      <column caption='Lon Ind' datatype='integer' name='[LonInd]' role='measure' type='quantitative' />
+      <column caption='Long Deg' datatype='string' name='[LongDeg]' role='dimension' type='nominal' />
+      <column caption='Long Hem' datatype='string' name='[LongHem]' role='dimension' type='nominal' />
+      <column caption='Long Min' datatype='string' name='[LongMin]' role='dimension' type='nominal' />
+      <column caption='Long Sec' datatype='string' name='[LongSec]' role='dimension' type='nominal' />
+      <column caption='Longitude Units' datatype='string' name='[LongitudeUnits]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+      <column caption='Name Archive Set' datatype='string' name='[NameArchiveSet]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Number Entry' datatype='string' name='[NumberEntry]' role='dimension' type='nominal' />
+      <column caption='Obs Gen' datatype='string' name='[ObsGen]' role='dimension' type='nominal' />
+      <column caption='Other Rem' datatype='string' name='[OtherRem]' role='dimension' type='nominal' />
+      <column caption='Other Ship Information' datatype='string' name='[OtherShipInformation]' role='dimension' type='nominal' />
+      <column caption='Part Day' datatype='string' name='[PartDay]' role='dimension' type='nominal' />
+      <column caption='Pos Coastal' datatype='integer' name='[PosCoastal]' role='measure' type='quantitative' />
+      <column caption='Precipitation Descriptor' datatype='string' name='[PrecipitationDescriptor]' role='dimension' type='nominal' />
+      <column caption='Prob Tair' datatype='string' name='[ProbTair]' role='dimension' type='nominal' />
+      <column caption='Pump Water' datatype='string' name='[PumpWater]' role='dimension' type='nominal' />
+      <column caption='Rec ID' datatype='integer' name='[RecID]' role='dimension' type='ordinal' />
+      <column caption='Reference Course' datatype='string' name='[ReferenceCourse]' role='dimension' type='nominal' />
+      <column caption='Reference Wind Direction' datatype='string' name='[ReferenceWindDirection]' role='dimension' type='nominal' />
+      <column caption='SST Reading Units' datatype='string' name='[SSTReadingUnits]' role='dimension' type='nominal' />
+      <column caption='SST Reading' datatype='string' name='[SSTReading]' role='dimension' type='nominal' />
+      <column caption='Sea Ice' datatype='integer' name='[SeaIce]' role='measure' type='quantitative' />
+      <column caption='Shape Clouds' datatype='string' name='[ShapeClouds]' role='dimension' type='nominal' />
+      <column caption='Ship And Rig Memo' datatype='string' name='[ShipAndRigMemo]' role='dimension' type='nominal' />
+      <column caption='Ship And Rig' datatype='integer' name='[ShipAndRig]' role='measure' type='quantitative' />
+      <column caption='Ship Name' datatype='string' name='[ShipName]' role='dimension' type='nominal' />
+      <column caption='Ship Speed' datatype='string' name='[ShipSpeed]' role='dimension' type='nominal' />
+      <column caption='Ship Type' datatype='string' name='[ShipType]' role='dimension' type='nominal' />
+      <column caption='Start Day' datatype='string' name='[StartDay]' role='dimension' type='nominal' />
+      <column caption='State Sea' datatype='string' name='[StateSea]' role='dimension' type='nominal' />
+      <column caption='Tair Reading' datatype='string' name='[TairReading]' role='dimension' type='nominal' />
+      <column caption='Time Gen' datatype='string' name='[TimeGen]' role='dimension' type='nominal' />
+      <column caption='Time OB' datatype='integer' name='[TimeOB]' role='measure' type='quantitative' />
+      <column caption='Trivial Correction' datatype='integer' name='[TrivialCorrection]' role='measure' type='quantitative' />
+      <column caption='Units Of Measurement' datatype='string' name='[UnitsOfMeasurement]' role='dimension' type='nominal' />
+      <column caption='Voyage From' datatype='string' name='[VoyageFrom]' role='dimension' type='nominal' />
+      <column caption='Voyage Ini' datatype='date' name='[VoyageIni]' role='dimension' type='ordinal' />
+      <column caption='Voyage To' datatype='string' name='[VoyageTo]' role='dimension' type='nominal' />
+      <column caption='Wars And Fights Memo' datatype='string' name='[WarsAndFightsMemo]' role='dimension' type='nominal' />
+      <column caption='Wars And Fights' datatype='integer' name='[WarsAndFights]' role='measure' type='quantitative' />
+      <column caption='Water At The Pump Units' datatype='string' name='[WaterAtThePumpUnits]' role='dimension' type='nominal' />
+      <column caption='Wind Direction' datatype='string' name='[WindDirection]' role='dimension' type='nominal' />
+      <column caption='Wind Force Scale' datatype='string' name='[WindForceScale]' role='dimension' type='nominal' />
+      <column caption='Wind Force' datatype='string' name='[WindForce]' role='dimension' type='nominal' />
+      <column caption='Wind Scale' datatype='string' name='[WindScale]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <column caption='Zero Meridian' datatype='string' name='[ZeroMeridian]' role='dimension' type='nominal' />
+      <column caption='Dr Lat Deg' datatype='string' name='[drLatDeg]' role='dimension' type='nominal' />
+      <column caption='Dr Lat Hem' datatype='string' name='[drLatHem]' role='dimension' type='nominal' />
+      <column caption='Dr Lat Min' datatype='string' name='[drLatMin]' role='dimension' type='nominal' />
+      <column caption='Dr Lat Sec' datatype='string' name='[drLatSec]' role='dimension' type='nominal' />
+      <column caption='Dr Long Deg' datatype='string' name='[drLongDeg]' role='dimension' type='nominal' />
+      <column caption='Dr Long Hem' datatype='string' name='[drLongHem]' role='dimension' type='nominal' />
+      <column caption='Dr Long Min' datatype='string' name='[drLongMin]' role='dimension' type='nominal' />
+      <column caption='Dr Long Sec' datatype='string' name='[drLongSec]' role='dimension' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.128834' measure-ordering='alphabetic' measure-percentage='0.871166' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAAsTAAALEwEAmpwY
+      AAAFXUlEQVR4nO3VMQEAIAzAMMC/5yFjRxMF/XpnZg4AOW87AIAdBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEfFxoG/IiMv0YAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
